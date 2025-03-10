@@ -1,10 +1,11 @@
 body {
-  background-image: url("../media/bkg.jpg");
+  color: purple;
+  background-image: url("../media/bkg1.jpg");
 }
 
 ul li {
   background: #C5E1EC;
-  color: black;
+  color: blue;
   margin: 5px;
 }
 
@@ -21,7 +22,7 @@ li {
 
 li a {
   display: block;
-  color: blue;
+  color: purple;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -30,5 +31,6 @@ li a {
 li a:hover {
   background-color: white;
 }
+
 
 
