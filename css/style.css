@@ -3,12 +3,23 @@ body {
   background-image: url("../media/bkg1.jpg");
 }
 
-h1 {
-  color:  (0, 255, 102);
+h1{
+  color: cyan;
+  font-family: "press Start 2P", "consolas", "courier";
+  font-weight: bold;
+  text-decoration: underline dotted purple;
+}
+
+h2{
+  color: green;
+  font-family: "press Start 2P", "consolas", "courier";
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 ul li {
-  background: #C5E1EC;
+  font-family: "consolas", "courier", "sans-serif";
+  background: grey;
   color: purple;
   margin: 5px;
 }
@@ -26,6 +37,8 @@ li {
 
 li a {
   display: block;
+  font-family: "consolas", "courier", "sans-serif";
+  font-weight: bold;
   color: purple;
   text-align: center;
   padding: 14px 16px;
@@ -33,9 +46,15 @@ li a {
 }
 
 li a:hover {
-  background-color: white;
+  background-color: pink;
 }
 
 p {
   color: purple;
+  font-family: "consolas", "courier", "sans-serif";
+  font-weight: bold;
+  background: none;
+  margin: 5px;
+  text-align: center;
+  overflow: hidden;
 }
