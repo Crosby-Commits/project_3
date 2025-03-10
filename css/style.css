@@ -3,9 +3,13 @@ body {
   background-image: url("../media/bkg1.jpg");
 }
 
+h1 {
+  color:  (0, 255, 102);
+}
+
 ul li {
   background: #C5E1EC;
-  color: blue;
+  color: purple;
   margin: 5px;
 }
 
@@ -32,5 +36,6 @@ li a:hover {
   background-color: white;
 }
 
-
-
+p {
+  color: purple;
+}
