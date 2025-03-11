@@ -61,7 +61,7 @@ li {
 li a {
   display: block;
   font-family: "Silkscreen", "sans-serif";
-  color: yellowgreen;
+  color: grey;
   text-align: left;
   padding: 14px 16px;
   text-decoration: none;
@@ -85,6 +85,18 @@ p {
   overflow: hidden;
 }
 
+a:link {
+  color: magenta;
+}
 
+a:visited {
+  color: purple;
+}
 
-  
+img {
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1.0;
+}
