@@ -1,23 +1,17 @@
 body {
   color: purple;
-  background-image: url("../media/bkg1.jpg");
+  background-image: url("../media/bkg.jpg");
 }
 
 h1{
-  color: cyan;
+  color: #4AF626;
   font-family: "press Start 2P", "consolas", "courier";
   font-weight: bold;
   text-decoration: none;
 }
 
-.press-start-2p-regular {
-  font-family: "Press Start 2P", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
 h2{
-  color: green;
+  color: cyan;
   font-family: "press Start 2P", "consolas", "courier";
   font-weight: bold;
   text-decoration: underline;
@@ -29,17 +23,32 @@ h2{
   font-style: normal;
 }
 
+.silkscreen-regular {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.geo-regular {
+  font-family: "Geo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 ul li {
   font-family: "consolas", "courier", "sans-serif";
   background: grey;
   color: purple;
-  margin: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 70px;
+  margin-left: 10px;
 }
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 10;
   overflow: hidden;
 }
 
@@ -49,16 +58,15 @@ li {
 
 li a {
   display: block;
-  font-family: "consolas", "courier", "sans-serif";
-  font-weight: bold;
-  color: purple;
-  text-align: center;
+  font-family: "Silkscreen", "sans-serif";
+  color: yellowgreen;
+  text-align: left;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: pink;
+  background-color: green;
 }
 
 p {
@@ -66,7 +74,15 @@ p {
   font-family: "consolas", "courier", "sans-serif";
   font-weight: bold;
   background: none;
-  margin: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 200px;
+  margin-left: 80px;
+  background: black;
   text-align: center;
   overflow: hidden;
 }
+
+
+
+  
