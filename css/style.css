@@ -12,7 +12,7 @@ h1{
 }
 
 h2{
-  color: grey;
+  color: #0165FC;
   font-family: "press Start 2P", "consolas", "courier";
   font-weight: bold;
   text-decoration: underline;
@@ -87,11 +87,11 @@ p {
 }
 
 a:link {
-  color: magenta;
+  color: #CB00F5;
 }
 
 a:visited {
-  color: #F0FFFF;
+  color: #FE019A;
 }
 
 img {
