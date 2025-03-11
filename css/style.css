@@ -5,9 +5,10 @@ body {
 
 h1{
   color: #4AF626;
-  font-size: 32px;
+  font-size: 42px;
   font-family: "press Start 2P", "consolas", "courier";
   font-weight: bold;
+  text-align: center;
   text-decoration: none;
 }
 
@@ -15,6 +16,7 @@ h2{
   color: #0165FC;
   font-family: "press Start 2P", "consolas", "courier";
   font-weight: bold;
+  text-align: center;
   text-decoration: underline;
 }
 
@@ -38,10 +40,10 @@ h2{
 
 
 ul li {
-  font-family: "Geo", "courier", "sans-serif";
-  font-size: 16px;
+  font-family: "courier", "sans-serif";
+  font-size: 20px;
   background: black;
-  color: purple;
+  color: yellowgreen;
   margin-top: 5px;
   margin-bottom: 5px;
   margin-right: 10px;
@@ -69,25 +71,27 @@ li a {
 }
 
 li a:hover {
+  color: yellowgreen;
   background-color: green;
 }
 
 p {
-  color: purple;
-  font-family: "Geo", "courier", "sans-serif";
-  font-size: 16px;
+  color: magenta;
+  font-family: "courier", "sans-serif";
+  font-size: 20px;
   background: none;
   margin-top: 5px;
   margin-bottom: 5px;
   margin-right: 200px;
   margin-left: 80px;
   background: black;
-  text-align: center;
+  text-align: left;
   overflow: hidden;
 }
 
 a:link {
   color: #CB00F5;
+  text-align: center;
 }
 
 a:visited {
@@ -104,4 +108,32 @@ img:hover {
 
 iframe{
     border-width: 0px;
+}
+
+#resume-title {
+  background-color: grey;
+}
+
+#resume-edu {
+  background-color: grey;
+}
+
+#resume-experience {
+  background-color: grey;
+}
+
+#resume-coursework {
+  background-color: grey;
+}
+
+#resume-extracurricular {
+  background-color: grey;
+}
+
+section {
+  display: block;
+  margin: 20px 0;
+  padding: 50px; 
+  border-radius: 50px;
+  text-align: center;
 }
