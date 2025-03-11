@@ -7,7 +7,13 @@ h1{
   color: cyan;
   font-family: "press Start 2P", "consolas", "courier";
   font-weight: bold;
-  text-decoration: underline dotted purple;
+  text-decoration: none;
+}
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h2{
@@ -15,6 +21,12 @@ h2{
   font-family: "press Start 2P", "consolas", "courier";
   font-weight: bold;
   text-decoration: underline;
+}
+
+.revalia-regular {
+  font-family: "Revalia", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 ul li {
