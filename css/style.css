@@ -41,14 +41,14 @@ ul li {
   color: purple;
   margin-top: 5px;
   margin-bottom: 5px;
-  margin-right: 70px;
-  margin-left: 10px;
+  margin-right: 10px;
+  margin-left: 0px;
 }
 
 ul {
   list-style-type: none;
-  margin: 10;
-  padding: 10;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
 }
 
