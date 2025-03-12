@@ -5,7 +5,7 @@ body {
 
 h1{
   color: #4AF626;
-  font-size: 42px;
+  font-size: 48px;
   font-family: "press Start 2P", "consolas", "courier";
   font-weight: bold;
   text-align: center;
@@ -76,17 +76,23 @@ li a:hover {
 }
 
 p {
-  color: magenta;
-  font-family: "courier", "sans-serif";
-  font-size: 20px;
+  font-family: "Geo", "courier", "sans-serif";
   background: none;
   margin-top: 5px;
   margin-bottom: 5px;
   margin-right: 200px;
   margin-left: 80px;
   background: black;
-  text-align: left;
+  text-align: center;
   overflow: hidden;
+  color: transparent;
+  text-shadow: 
+    -2px -2px 2px white,  
+     2px -2px 2px purple,  
+    -2px  2px 2px purple,  
+     2px  2px 2px purple;
+  font-size: 3em;
+  font-weight: bold;
 }
 
 a:link {
@@ -132,8 +138,29 @@ iframe{
 
 section {
   display: block;
-  margin: 20px 0;
+  margin: 20px 220px;
   padding: 50px; 
   border-radius: 50px;
   text-align: center;
 }
+
+@keyframes flicker {
+  0% { opacity: 1; text-shadow: 0 0 5px #b300ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff; }
+  50% { opacity: 0.8; text-shadow: 0 0 3px #b300ff, 0 0 8px #ff00ff, 0 0 15px #ff00ff; }
+  100% { opacity: 1; text-shadow: 0 0 5px #b300ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff; }
+}
+
+.flicker-section {
+  background-color: black;
+  color: magenta;
+  font-size: 2em;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  animation: flicker 0.1s infinite alternate;
+}
+
+
+
+
+
