@@ -17,6 +17,11 @@ h2{
   font-family: "press Start 2P", "consolas", "courier";
   font-weight: bold;
   text-align: center;
+  text-shadow: 
+    -2px -2px 2px white,  
+     2px -2px 2px white,  
+    -2px  2px 2px white,  
+     2px  2px 2px white;
   text-decoration: underline;
 }
 
