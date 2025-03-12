@@ -161,6 +161,23 @@ section {
 }
 
 
+/* Tablets (widths between 600px and 1024px) */
+@media (max-width: 1024px) {
+  body {
+    font-size: 16px;
+    padding: 15px;
+  }
+}
+
+/* Mobile Devices (widths below 600px) */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+
 
 
 
