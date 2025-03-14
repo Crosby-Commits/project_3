@@ -5,7 +5,7 @@ body {
 
 h1{
   color: #4AF626;
-  font-size: 55px;
+  font-size: 52px;
   font-family: "press Start 2P", "consolas", "courier";
   font-weight: bold;
   text-align: center;
@@ -13,26 +13,26 @@ h1{
 }
 
 h2{
-  color: #0165FC;
+  color: yellowgreen;
   font-family: "press Start 2P", "consolas", "courier";
   font-weight: bold;
   text-align: center;
   text-shadow: 
-    -2px -2px 2px white,  
-     2px -2px 2px white,  
-    -2px  2px 2px white,  
-     2px  2px 2px white;
+    -2px -2px 2px black,  
+     2px -2px 2px black,  
+    -2px  2px 2px black,  
+     2px  2px 2px black;
   text-decoration: underline;
 }
 
 .revalia-regular {
-  font-family: "Revalia", sans-serif;
+  font-family: "Revalia", "sans-serif";
   font-weight: 400;
   font-style: normal;
 }
 
 .silkscreen-regular {
-  font-family: "Silkscreen", sans-serif;
+  font-family: "Silkscreen", "sans-serif";
   font-weight: 400;
   font-style: normal;
 }
@@ -44,7 +44,7 @@ h2{
 }
 
 .raleway-dots-regular {
-  font-family: "Raleway Dots", sans-serif;
+  font-family: "Raleway Dots", "sans-serif";
   font-weight: 400;
   font-style: normal;
 }
@@ -95,7 +95,7 @@ li a:hover {
 }
 
 p {
-  font-family: "Obitron", "courier", "sans-serif";
+  font-family: "press Start 2P", "courier", "sans-serif";
   background: none;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -110,7 +110,7 @@ p {
      2px -2px 2px purple,  
     -2px  2px 2px purple,  
      2px  2px 2px purple;
-  font-size: 3em;
+  font-size: 2em;
   font-weight: bold;
 }
 
@@ -184,6 +184,32 @@ section {
   width: 90%; /* Instead of fixed 1200px */
   max-width: 1200px; /* Prevents it from being too wide */
   margin: 0 auto; /* Centers the container */
+}
+
+.button-link {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff; /* Blue color */
+  font-family: "courier", "sans-serif";
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+.button-link:hover {
+  background-color: #0056b3; /* Darker blue */
+  transform: scale(1.05);
+}
+
+/* Active (clicked) effect */
+.button-link:active {
+  background-color: #004494;
+  transform: scale(0.98);
 }
 
 
