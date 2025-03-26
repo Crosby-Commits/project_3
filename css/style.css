@@ -98,7 +98,6 @@ li a:hover {
   margin: 0 auto;
   max-width: max-content;
 }
-
   
 p {
   font-family: "press Start 2P", "courier", "sans-serif";
@@ -185,6 +184,11 @@ section {
   animation: flicker 0.1s infinite alternate;
 }
 
+.containerp {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+}
 
 .container {
   width: 90%; /* Instead of fixed 1200px */
