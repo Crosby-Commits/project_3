@@ -222,7 +222,18 @@ section {
   transform: scale(0.98);
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+@media (min-width: 768px) {
+    .flex-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
 
 
 
