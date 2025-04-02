@@ -162,7 +162,7 @@ iframe{
 
 section {
   display: block;
-  margin: 20px 220px;
+  margin: 20px 80px auto;
   padding: 50px; 
   border-radius: 50px;
   text-align: center;
@@ -226,6 +226,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
 }
 
 @media (min-width: 768px) {
