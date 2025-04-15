@@ -1,7 +1,11 @@
+#map {
+  height: 100%;
+  width: 100%;
+}
 #wrapper {
   width: 850px;
   height: 600px;
-  background-color: black;
+  background-color: yellowgreen;
   margin: 0 auto;
   overflow: hidden;
 }

@@ -199,9 +199,9 @@ section {
 .button-link {
   display: inline-block;
   padding: 12px 24px;
-  background-color: yellowgreen; 
+  background-color: black; 
   font-family: "courier", "sans-serif";
-  color: white;
+  color: grey;
   font-size: 25px;
   font-weight: bold;
   text-align: center;
@@ -212,7 +212,7 @@ section {
 
 /* Hover effect */
 .button-link:hover {
-  background-color: #0056b3; /* Darker blue */
+  background-color: green; /* Darker blue */
   transform: scale(1.05);
 }
 
